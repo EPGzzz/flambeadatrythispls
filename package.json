@@ -1,0 +1,9 @@
+{
+  "name": "truco-o-trato-online",
+  "version": "1.0.0",
+  "description": "Truco o Trato: La noche que nunca termina - servidor de salas online",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}

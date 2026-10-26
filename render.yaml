@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: truco-o-trato
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: GOD_KEY
+        generateValue: true
